@@ -13,7 +13,7 @@
     <script>
         async function rollDice(sides) {
             try {
-                const response = await fetch("https://dice-roller-api-lab3-aca7a8hvf0g8c8c4.uaenorth-01.azurewebsites.net/roll/" + sides);
+                const response = await fetch(""https://dice-roller-api-lab3-aca7a8hvf0g8c8c4.uaenorth-01.azurewebsites.net/roll/" + sides);
                 if (!response.ok) {
                     throw new Error("API request failed");
                 }
